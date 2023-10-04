@@ -3,13 +3,13 @@
     "composite": true,
     "target": "ESNext",
     "useDefineForClassFields": true,
-    "module": "ESNext",
+    "module": "NodeNext",
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
     "types": ["vite/client", "bun-types"],
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
+    "moduleResolution": "NodeNext",
     "moduleDetection": "force",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
@@ -21,7 +21,10 @@
     "outDir": "dist",
     "declarationDir": "dist",
     "baseUrl": ".",
-    "sourceMap": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "sourceMap": false,
     "removeComments": true,
     "declarationMap": true,
 
@@ -31,9 +34,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "allowSyntheticDefaultImports": true,
-    "paths": {
-      "@/*": ["./src/*"]
-    },
     "allowJs": false,
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": true,

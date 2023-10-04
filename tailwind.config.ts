@@ -7,6 +7,7 @@ export default {
     extend: {},
   },
   plugins: [
+    // eslint-disable-next-line import/no-commonjs, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-require-imports, @typescript-eslint/no-var-requires
     require('@sira-ui/tailwind')({
       themes: [
         {

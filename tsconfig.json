@@ -49,5 +49,11 @@
     "noUncheckedIndexedAccess": true,
     "strictBindCallApply": true
   },
-  "include": ["src/**/*.ts", "src/**/*.vue", "vite.config.ts", "tailwind.config.ts"]
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.vue",
+    "vite.config.ts",
+    "tailwind.config.ts",
+    "postcss.config.cts"
+  ]
 }

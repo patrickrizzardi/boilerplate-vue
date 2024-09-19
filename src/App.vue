@@ -21,7 +21,7 @@
       </a>
       +
       <a
-        href="https://www.sira-design.party/docs/guide/installation"
+        href="https://sira.riazer.com/docs/guide/installation"
         target="_blank"
         class="link text-purple-600"
       >
